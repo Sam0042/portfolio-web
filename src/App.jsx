@@ -16,8 +16,8 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Get started</h1>
-          <p>
+          <h1 className='text-red-500'>Get started</h1>
+          <p className='text-purple-500'>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
         </div>
