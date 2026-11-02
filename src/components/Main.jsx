@@ -1,4 +1,5 @@
 import Projects from "../pages/Projects";
+import Hero from "./Hero";
 import Navbar from "./Navbar";
 import ProjectCard from "./ProjectCard";
 
@@ -23,7 +24,7 @@ export default function Main() {
     return (
         <div>
             <Navbar />
-            <br />
+            <Hero />
             <Projects datas={datas} />
         </div>
     )
