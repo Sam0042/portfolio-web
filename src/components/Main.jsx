@@ -6,18 +6,28 @@ import ProjectCard from "./ProjectCard";
 export default function Main() {
     const datas = [
         {
-            title: 'titlez111',
-            stack: 'stacksz',
+            title: 'Sistem Informasi Masjid Roudhotul Jannah',
+            stack: 'Fullstack',
             desc: 'descz'
         },
         {
-            title: 'titlez2',
-            stack: 'stacksz2',
+            title: 'Traveking: Website booking hotel',
+            stack: 'Fullstack',
             desc: 'descz2'
         },
         {
-            title: 'titlez2',
-            stack: 'stacksz2',
+            title: 'Covid Rest API',
+            stack: 'Backend',
+            desc: 'descz2'
+        },
+        {
+            title: 'Website Sekolah',
+            stack: 'Fullstack',
+            desc: 'descz2'
+        },
+        {
+            title: 'Moviequ',
+            stack: 'Frontend',
             desc: 'descz2'
         },
     ]

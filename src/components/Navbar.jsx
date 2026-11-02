@@ -1,8 +1,8 @@
 export default function Navbar() {
     return (
-        <div className="navbar bg-base-100 shadow-sm sticky top-0 z-10">
+        <div className="navbar bg-base-300 shadow-sm sticky top-0 z-10">
             <div className="flex-1">
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="btn btn-ghost text-lg md:text-xl">Hisyam's Porftolio</a>
             </div>
 
             <div className="dropdown dropdown-bottom dropdown-end">
@@ -12,8 +12,9 @@ export default function Navbar() {
                 <ul
                     tabIndex={-1}
                     className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><a>Item 1</a></li>
-                    <li><a>Item 3</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a>Education</a></li>
+                    <li><a>Social</a></li>
                 </ul>
             </div>
             <div className="flex-none hidden md:block">

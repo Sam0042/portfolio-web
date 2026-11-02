@@ -12,7 +12,7 @@ export default function ProjectCard({ title, stack, img, desc }) {
                 <small>{stack}</small>
                 <p>{desc}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">See Detail</button>
+                    <button className="btn btn-sm btn-primary"> See Repository</button>
                 </div>
             </div>
         </div>
